@@ -18,6 +18,7 @@ header {
 
 header h1 {
     text-align: center;
+    letter-spacing: 3px;
 }
 
 body {
@@ -46,6 +47,7 @@ body {
 
 .choice:hover {
     background: #16295b;
+    transform: scale(1.01);
     cursor: pointer;
 }
 
