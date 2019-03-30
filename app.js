@@ -46,7 +46,7 @@ function game(userChoice) {
             win(userChoice, compChoice);
             break;
         case 'PaperScissors':
-        case 'RockPapeRock':
+        case 'RockPaper':
         case 'ScissorsRock':
             lost(userChoice, compChoice);
             break;
