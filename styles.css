@@ -37,7 +37,7 @@ body {
 }
 
 .choice {
-    border: 2px solid #f1f1f1;
+    border: 3px solid #f1f1f1;
     display: inline-block;
     margin: 0 50px;
     padding: 15px;
@@ -96,4 +96,19 @@ p#action-message {
     font-size: 25px;
     font-weight: bold;
     margin-top: 20px;
+}
+
+.green-glow {
+    border-color: #028802;
+    box-shadow: 0 0 10px #027002;
+}
+
+.red-glow {
+    border-color: #be0b05;
+    box-shadow: 0 0 10px #990904;
+}
+
+.gray-glow {
+    border-color: #646464;
+    box-shadow: 0 0 10px #4e4e4e;
 }
